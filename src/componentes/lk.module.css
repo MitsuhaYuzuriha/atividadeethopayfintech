@@ -1,0 +1,73 @@
+.contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    margin: 0;
+    background-color: rgb(20, 1, 18);
+    color: #fff;
+    font-family: monospace;
+    font-size: 15px;
+  }
+
+  .contato ul li{
+    margin-bottom: 10px;
+  }
+
+  .contato ul li a{
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .contato ul li a:hover{
+    color: blueviolet;
+    transition: ;
+  }
+
+  .links{
+    list-style-type: none;
+  }
+
+  .contato ul{
+    margin-right: 120px;
+    padding: 0;
+  }
+  
+  .contatos{
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+  }
+
+  .contatos a{
+    margin-top: -40px;
+    margin-left: 60px;
+    display: flex;
+  }
+
+  .app {
+    list-style-type: none;
+  }
+  
+  .play {
+    width: 150px;
+  }
+  
+  .ios {
+    width: 160px;
+  }
+
+  .lk{
+    width: 40px;
+  }
+
+  .git{
+    width: 50px;
+  }
+
+  .contatos li img{
+    margin-right: 10px;
+    margin-top: 30px;
+  }

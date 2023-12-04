@@ -1,0 +1,19 @@
+.logo{
+    width: 120px;
+}
+.Links a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin-left: 45px;
+    font-size: 18px;
+}
+.Ultimo{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 150px;
+}
+
+a:hover{
+    color: #9e45b5;
+}

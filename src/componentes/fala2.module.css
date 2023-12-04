@@ -1,0 +1,16 @@
+.containerStyle{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 100px;
+    display: 'flex';
+    position: absolute;
+    background-color: rgba(195, 132, 222, 0.875);
+    border-radius: 50px 50px 50px 0;
+    padding: 20px;
+    color: #fff;
+    margin-top: 340px;
+    margin-left: 700px;
+    box-Shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+  };

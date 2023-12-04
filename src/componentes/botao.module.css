@@ -1,0 +1,71 @@
+.textbox {
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 250px;
+  }
+  
+  .botn:link,
+  .botn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 30px 100px;
+    width: 130px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position: absolute;
+  }
+  
+  .botn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(130, 7, 134, 0.775);
+  }
+  
+  .botn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(133, 21, 21, 0.2);
+  }
+  
+  .botnwhite {
+    background-color: #ffffff;
+    color: #000;
+  }
+  
+  .botn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+  }
+  
+  .botnwhite::after {
+    background-color: #e68ed6;
+  }
+  
+  .botn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+  }
+  
+  .botnanimated {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+  }
+  
+  @keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+  
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+  }

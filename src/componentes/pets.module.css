@@ -1,0 +1,19 @@
+.pets{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 700px;
+    border-radius: 50px;
+    background-color: rgba(255, 135, 199, 0.26);
+    color: #fff;
+    padding: auto;
+    box-Shadow: 10px 10px 10px rgb(0, 0, 0);
+}
+
+.pets p{
+    width: 430px;
+    margin-left: 40px;
+    margin-top: 30px;
+    font-size: 22px;
+}

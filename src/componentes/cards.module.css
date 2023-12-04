@@ -1,0 +1,25 @@
+.cardStyle{
+    width: 350px;
+    height: 300px;
+    background-color: rgba(176, 4, 149, 0.6);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    position: absolute;
+    color: #fff;
+    font-size: 34px;
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 250px;
+    transition: 'transform 0.2s';
+    cursor: pointer;
+}
+
+.cardStyle:hover{
+    transform: scale(1.05);
+    background-Color: rgba(226, 112, 182, 0.6)
+}
+
+.cardStyle p{
+    margin-top: 70px;
+}

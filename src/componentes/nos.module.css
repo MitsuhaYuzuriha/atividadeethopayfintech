@@ -1,0 +1,20 @@
+.fim{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 120px;
+    color: #fff;
+    background-color: rgba(126, 189, 234, 0.644);
+    border-radius: 150px 0px 150px 0px;
+    box-Shadow: 10px 10px 10px rgba(0, 0, 0, 0.5)
+}
+
+.fim p{
+    margin-top: 50px;
+    width: 380px;
+    margin-left: 40px;
+    text-align: center;
+    font-size: 35px;
+    font-family: monospace;
+}
